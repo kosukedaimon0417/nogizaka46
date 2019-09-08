@@ -1,0 +1,144 @@
+.container{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+a{
+    background: #f9f9f9;
+    color: #ff4c4c;
+    font-size: 12px;
+    border: 1px solid #ff4c4c;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    float: left;
+    
+}
+*{
+    margin: 0;
+    
+    padding: 0;
+}
+
+body{
+    background: #f9f9f9;
+}
+
+.contairner{
+    
+    width: 900;
+    
+    margin: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'HigashiOme-Gothic-1.3i';
+    src: url('../font/HigashiOme-Gothic-1.3i.ttf') format('truetype');
+}
+
+body {
+    font-family: "HigashiOme-Gothic-1.3i";
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    width: 100%;
+}
+    
+.col-3 {
+    width: 33%;
+}
+
+.col-3 
+nav ul {
+    margin: 0 auto;
+    overflow: hidden;
+    list-style-type: none;
+    width: 80%;
+}
+
+nav ul li {
+    width: 14.1%;
+    float: left;
+}
+
+nav ul li .nav-btn {
+    text-align: center;
+    width: 100%;
+    background-color: #7f1285;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5% 3%;
+    color: #fff;
+}
+
+
+/*
+a {
+    background: #f9f9f9;
+    color: #ff4c4c;
+    font-size: 12px;
+    border: 1px solid #ff4c4c;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    float: left;
+}
+*/
+
+/*.hero {
+    background-image: url("../5601a33553.jpg");
+    background-blend-mode: overlay;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}*/
+
+.video-container .hero {
+  position: relative;
+    /*background-image: ;
+    background-blend-mode: overlay;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    width: auto;
+    height: 700px;
+}
+
+.video-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.3%;
+  background-color: rgba(130, 130, 130, 0.3); 
+}
+
+video {
+  width: 100%;
+}
+
+.hero .top-title {
+    color: #fff;
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 15px;
+}
