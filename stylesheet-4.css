@@ -178,14 +178,18 @@ a {
     position: relative;
 }*/
 
-.video-container .hero {
+.video-container{
+ width: 100%;
+    height: auto;
+}
+.hero {
   position: relative;
     /*background-image: ;
     background-blend-mode: overlay;
     background-color: #333;
     background-repeat: no-repeat;
     background-size: cover;*/
-    width: 1680px;
+    width: auto;
     height: 700px;
 }
 
