@@ -178,11 +178,7 @@ a {
     position: relative;
 }*/
 
-.video-container{
- width: 100%;
-    height: auto;
-}
-.hero {
+.video-container.hero {
   position: relative;
     /*background-image: ;
     background-blend-mode: overlay;
