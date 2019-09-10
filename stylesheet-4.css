@@ -183,13 +183,13 @@ a {
     position: relative;
 }*/
 
-.video-container .hero {
+/*.video-container .hero {
   position: relative;
     /*background-image: ;
     background-blend-mode: overlay;
     background-color: #333;
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
     width: auto;
     height: 700px;
 }
@@ -215,10 +215,10 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: 15px;
-}
+}*/
 
 
-/*.video-container .hero {
+.video-container .hero {
     position: relative;
     width: auto;
     height: 700px;
@@ -245,6 +245,5 @@ video {
     left: 50%;
     transform: translate(-50%, 50%);
     letter-spacing: 15px;
-}*/
-
 }
+
