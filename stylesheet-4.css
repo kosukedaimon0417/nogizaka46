@@ -1,7 +1,6 @@
 *{width:0;
 	padding:0;}
- *{margin:0;
-	padding:0;}
+
 /* ここでpaddingやmarginをwidthに含めるよ！ */
 * { 
 	-webkit-box-sizing: border-box; 
@@ -217,7 +216,6 @@ video {
     letter-spacing: 15px;
 }*/
 
-
 .video-container .hero {
     position: relative;
     width: auto;
@@ -246,4 +244,4 @@ video {
     transform: translate(-50%, 50%);
     letter-spacing: 15px;
 }
-
+}
